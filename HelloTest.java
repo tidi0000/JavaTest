@@ -6,4 +6,8 @@ public class HelloTest {
 	
 	public HelloTest() {}
 
+	@Override
+	public String toString() {
+		return name;
+	}
 }
